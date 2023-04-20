@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    .item img{
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        
+    }
+    .item button{
+        position:absolute;
+        margin-top: 20px;
+        padding:10px;
+        clear: both;
+        background-color: #000;
+        color:#fff;
+        font-size: 17px;
+    }
+    #container{
+        margin: 20px 30px;
+        line-height: 25px;
+    }
+    #info{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    #info img{
+        width: 350px;
+        height: 230px;
+        margin-top: 20px;
+    }
+    #info button{
+        width: 350px;
+        height: 40px;
+        font-size: 18px;
+        border: none;
+        outline:none;
+    }
+    .head-font-size{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .name{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .job{
+        color: #666666;
+        margin-bottom: 10px;
+    }
+    .content{
+        width: 350px;
+    }
+
+    #contact p{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #contact input{
+        width:100%;
+        height: 40px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    #contact button{
+        background-color: #000;
+        color: #fff;
+        width: 180px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    #header-right{
+        float:right;
+        width: 30%;
+        height: 20px;
+    }
+    #header{
+        width: 100%;
+        height: 100px;
+        background-color:antiquewhite;
+        display:inline-block;
+        position:fixed;
+    }
+    #header-right a{
+        text-decoration: none;
+        padding: 30px;
+    }
+    #header-left{
+        width: 50%;
+        height: 50px;
+        padding-top: 40px;
+    }
+    #header-left a{
+        text-decoration: none;
+        margin: 100px;
+        
+    }
+</style>
+<body>
+    <div id="header">
+        <div id="header-left">
+            <a href="./index.html">
+                <span><b>BR</b> Architects</span>
+            </a>
+        </div>
+        <div id="header-right">
+            <a href="./index.html">Projects</a>
+            <a href="./index.html">About</a>
+            <a href="./index.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="item">
+        <button>Summer House</button>
+        <img src="./Img/house2.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Brick House </button>
+        <img src="./Img/house3.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Renovated</button>
+        <img src="./Img/house4.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Barn House</button>
+        <img src="./Img/house5.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Summer House</button>
+        <img src="./Img/house5.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Brick House </button>
+        <img src="./Img/house4.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Renovated</button>
+        <img src="./Img/house3.jpg" alt="">
+    </div>
+    <div class="item">
+        <button>Barn House</button>
+        <img src="./Img/house2.jpg" alt="">
+    </div>
+
+    <div id="container" >
+        <p class="head-font-size">About</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <section id="info" >
+            <div>
+                <img src="./Img/team2.jpg" alt="">
+                <p class="name">John Doe</p>
+                <p class="job">CEO & Founder</p>
+                <p class="content">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+            </div>
+            <div>
+                <img src="./Img/team1.jpg" alt="">
+                <p class="name">Jane Doe</p>
+                <p class="job">Architect</p>
+                <p class="content">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+            </div>
+            <div>
+                <img src="./Img/team3.jpg" alt="">
+                <p class="name">Mike</p>
+                <p class="job">CEO & Founder</p>
+                <p class="content">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button><a></a>Contact</button>
+            </div>
+            <div>
+                <img src="./Img/team4.jpg" alt="">
+                <p class="name">Jack</p>
+                <p class="job">Architect</p>
+                <p class="content">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <button>Contact</button>
+            </div>
+        </section>
+        <section id="contact">
+            <p>Contact</p>
+            <hr>
+            <label for="" class="title">Lets get in touch and talk about your next project</label><br>
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="text" placeholder="Subject"><br>
+            <input type="text" placeholder="Comment"><br>
+            <button>SEND MESSAGE</button>
+        </section>
+        
+    </div>
+</body>
+</html>
